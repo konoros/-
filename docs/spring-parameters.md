@@ -2,7 +2,7 @@
 
 首先明确核心公式是
 
-k=$\frac{mgl}{h_{1}h_{2}}$
+k = $\frac{mgl}{h_{1}h_{2}}$
 
 ![核心公式](../images/spring-parameters-1.png)
 
