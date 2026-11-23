@@ -28,7 +28,7 @@ G*sin（θ1）=  F*s=k*Δx*s
 
 化简后有：
 
-K = $\frac{G*\sin (\theta 1)}{\Delta x*s}$
+K = $\frac{G\cdot \sin (\theta 1)}{\Delta x\cdot s}$
 
 由于
 
@@ -36,17 +36,17 @@ s=l3*sin（θ2）
 
 回代得：
 
-K = $\frac{G*\sin (\theta 1)}{\Delta x*l3*\sin (\theta 2)}$
+K = $\frac{G\cdot \sin (\theta 1)}{\Delta x\cdot l3\cdot \sin (\theta 2)}$
 
 又因为
 
 $\frac{x}{\sin (\theta 3)}$= $\frac{l2}{\sin (\theta 2)}$
 
-sin(θ2)= $\frac{l2*\sin (\theta 3)}{x0+\Delta x}$
+sin(θ2)= $\frac{l2\cdot \sin (\theta 3)}{x0+\Delta x}$
 
 回代得：
 
-K= $\frac{G*l1}{l2*l3}*\frac{\sin (\theta 1)}{\sin (\theta 3)}*\frac{x}{\Delta x}$
+K= $\frac{G\cdot l1}{l2\cdot l3}\cdot \frac{\sin (\theta 1)}{\sin (\theta 3)}\cdot \frac{x}{\Delta x}$
 
 若要使k为恒定值即弹簧选型不变
 
@@ -58,7 +58,7 @@ $\frac{\sin (\theta 1)}{\sin (\theta 3)}$=1  、 $\frac{x}{\Delta x}$=1
 
 最后化简得
 
-K= $\frac{G*l1}{l2*l3}$
+K= $\frac{G\cdot l1}{l2\cdot l3}$
 
 由公式可得，只要弹簧选型满足k值，则在任意角度下，pitch均能保持平衡
 
@@ -108,7 +108,7 @@ Ps：压簧一定要时刻保持压缩，在个别情况下只有在仰角最高
 
 首先是k的计算公式
 
-K= $\frac{G*d^{4}}{8*D^{3}*n}$
+K= $\frac{G\cdot d^{4}}{8\cdot D^{3}\cdot n}$
 
 可以看到整个式子是比较复杂的，并且计算量庞大，手算来解决是效率较低的，因此我们在这里引入了matlab来帮助我们计算出数据。
 
