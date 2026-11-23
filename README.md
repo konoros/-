@@ -5,19 +5,18 @@
 ## 📄 Markdown 预览
 
 - [大概思路（在线预览）](docs/idea.md)
-- [重补弹簧的参数选择思路（在线预览）](docs/spring-parameters.md)
+- [弹簧重补 技术报告（在线预览）](docs/spring-report.md)
 
 ## 🖼 图片
 
+- 图片目录：[images/](images/)
 - [作品原型照片](images/robot-prototype.jpg)
-- [弹簧核心公式](images/spring-parameters-1.png)
-- [压簧选型示意](images/spring-parameters-2.png)
-- [弹簧摆放位置](images/spring-parameters-3.png)
+- 弹簧重补报告插图：`images/spring-report-1.png` … `images/spring-report-13.png`（共 13 张，从原文档内嵌图片按顺序导出）
 
 ## 📦 原文件下载
 
 - [大概思路？.docx（Word 原件）](originals/idea.docx)
-- [重补弹簧的参数选择思路.docx（Word 原件）](originals/spring-parameters.docx)
+- [弹簧重补 技术报告.docx（Word 原件）](originals/spring-report.docx)
 
 ---
 
@@ -25,7 +24,7 @@
 
 | 目录 | 内容 | 用途 |
 |---|---|---|
-| `docs/` | `idea.md`、`spring-parameters.md` | 可直接在 GitHub 上预览的 Markdown 正文 |
+| `docs/` | `idea.md`、`spring-report.md` | 可直接在 GitHub 上预览的 Markdown 正文（公式用 LaTeX，GitHub 原生渲染） |
 | `images/` | 正文引用的图片 | 文档插图，使用相对路径 `../images/` 引用 |
 | `originals/` | 对应 Word 原件 | 打开后点右上角 **Download** 下载 |
 
