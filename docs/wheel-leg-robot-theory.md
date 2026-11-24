@@ -55,13 +55,13 @@ d=L0sinθ     （1.1.3-2）
 此时重力产生一个顺时针倾覆力矩：
 
 $$
-\tau_{O}=mg*L0\sin \theta (1.1.3-3)
+\tau_{O}=mg\cdot L0\sin \theta (1.1.3-3)
 $$
 
 为了让车保持平衡，轮子需要拥有一个加速度，从而产生一个恢复力矩来抵消掉倾覆力矩的作用，则有：
 
 $$
-\tau_{C}=ma*L0\cos \theta (1.1.3-4)
+\tau_{C}=ma\cdot L0\cos \theta (1.1.3-4)
 $$
 
 $$
@@ -351,13 +351,13 @@ CD，FG均为二力杆，其受力均连杆端点连线的方向，因此可以�
 对连杆JHG分析，对H点进行合力矩计算
 
 $$
-\sum_{}^{} M_{H}=-F_{n}*d_{JH}+F_{1}*d_{HG}=0 (1.2.6-1)
+\sum_{}^{} M_{H}=-F_{n}\cdot d_{JH}+F_{1}\cdot d_{HG}=0 (1.2.6-1)
 $$
 
 对连杆CEF分析，对E点进行合力矩计算
 
 $$
-\sum_{}^{} M_{E}=F_{2}*d_{CE}+F_{1}'*d_{FE}=0 (1.2.6-2)
+\sum_{}^{} M_{E}=F_{2}\cdot d_{CE}+F_{1}'\cdot d_{FE}=0 (1.2.6-2)
 $$
 
 因为EFGH为平行四边形，则 $d_{HG}=d_{FE}$  （1.2.6-3）
@@ -365,11 +365,11 @@ $$
 联立1.2.6的123式可得
 
 $$
-F_{1}=\frac{d_{JH}}{d_{HG}}*F_{n}(1.2.6-4)
+F_{1}=\frac{d_{JH}}{d_{HG}}\cdot F_{n}(1.2.6-4)
 $$
 
 $$
-F_{2}=\frac{d_{JH}}{d_{CE}}*F_{n}(1.2.6-5)
+F_{2}=\frac{d_{JH}}{d_{CE}}\cdot F_{n}(1.2.6-5)
 $$
 
 由1.2.6-3式可得：HG与JH的差距越大，F1越大，对F点和G点处轴系的径向冲击载荷越大
@@ -381,7 +381,7 @@ $d_{CE}$ 的大小可以通过三角形面积公式得
 在三角形DCE中，有：
 
 $$
-S_{\Delta DCE}=\frac{1}{2}DC*d_{CE}(1.2.6-7)
+S_{\Delta DCE}=\frac{1}{2}DC\cdot d_{CE}(1.2.6-7)
 $$
 
 $$
@@ -419,13 +419,13 @@ $d_{CE}$=| $\frac{\vec{ED}\times \vec{EC}}{DC}|=|\frac{(D_{x}-E_{x})\cdot (C_{y}
 对AD杆分析，对A点进行合力矩计算
 
 $$
-\sum_{}^{} M_{A}=F2'*d_{AD}-\tau =0 (1.2.7-1)
+\sum_{}^{} M_{A}=F2'\cdot d_{AD}-\tau =0 (1.2.7-1)
 $$
 
 在三角形ADC中，有：
 
 $$
-S_{\Delta ADC}=\frac{1}{2}DC*d_{AD}(1.2.7-2)
+S_{\Delta ADC}=\frac{1}{2}DC\cdot d_{AD}(1.2.7-2)
 $$
 
 $$
@@ -441,7 +441,7 @@ $$
 $$
 
 $$
-d_{AD}=|\frac{D_{x}*C_{y}-D_{y}*C_{x}}{\sqrt{(D_{x}-E_{x})^{2}+(D_{y}-E_{y})^{2}}}| (1.2.7-6)
+d_{AD}=|\frac{D_{x}\cdot C_{y}-D_{y}\cdot C_{x}}{\sqrt{(D_{x}-E_{x})^{2}+(D_{y}-E_{y})^{2}}}| (1.2.7-6)
 $$
 
 通过matlab代码，我们可以算出F2与F2’的大小
@@ -601,7 +601,7 @@ $$
 通过齐次变换矩阵完成从以A点为原点的坐标系到以O点为原点的坐标系转换
 
 $$
-[\begin{matrix}X^{C} \\ Y^{C}\end{matrix}]=R_{A[3\times 3]}^{C}*[\begin{matrix}X^{A} \\ Y^{A}\end{matrix}] (2.2.2-3)
+[\begin{matrix}X^{C} \\ Y^{C}\end{matrix}]=R_{A[3\times 3]}^{C}\cdot [\begin{matrix}X^{A} \\ Y^{A}\end{matrix}] (2.2.2-3)
 $$
 
 通过几何关系可以得到： $R_{A[3\times 3]}^{C}=[\begin{matrix}1 & 0 & {-C}_x^{4} \\ 0 & 1 & {-C}_y^{A} \\ 0 & 0 & 1\end{matrix}] (2.2.2-4)$
@@ -699,7 +699,7 @@ V_{b}=\omega \times {AP}_{26}(2.2.3-8);V_{m}=\frac{{DP}_{26}}{{AP}_{26}}V_{b}(2.
 $$
 
 $$
-V_{CD}=c*V_{m}(2.2.3-10);V_{AD}=\frac{M_{D}P_{26}}{{AP}_{26}}V_{b}(2.2.3-11)\text{；}
+V_{CD}=c\cdot V_{m}(2.2.3-10);V_{AD}=\frac{M_{D}P_{26}}{{AP}_{26}}V_{b}(2.2.3-11)\text{；}
 $$
 
 $$
@@ -707,7 +707,7 @@ V_{b}=\omega \times {AP}_{46}(2.2.3-12);V_{E}=\frac{{EP}_{46}}{{AP}_{46}}V_{b}(2
 $$
 
 $$
-V_{CE}=c*V_{E}(2.2.3-14);V_{AE}=\frac{M_{E}P_{46}}{{AP}_{46}}V_{b}(2.2.3-15);
+V_{CE}=c\cdot V_{E}(2.2.3-14);V_{AE}=\frac{M_{E}P_{46}}{{AP}_{46}}V_{b}(2.2.3-15);
 $$
 
 其中， ${AP}_{26}\text{、}{DP}_{26}\text{、}{AP}_{46}\text{、}{EP}_{46}\text{、}M_{D}P_{26}\text{、}M_{E}P_{46}$ 可以通过对坐标求两点间距离公式得到。
@@ -755,21 +755,21 @@ V_{wm}=0 (2.2.3-20);
 $$
 
 $$
-V_{CDy}=V_{CD}*\sin \angle CDR=V_{CD}*\frac{D_{x}\phi_{2}}{l_{2}}(2.2.3-21)\text{；}
+V_{CDy}=V_{CD}\cdot \sin \angle CDR=V_{CD}\cdot \frac{D_{x}\phi_{2}}{l_{2}}(2.2.3-21)\text{；}
 $$
 
 $$
-V_{ADy}=V_{AD}*\cos \angle M_{D}P_{26}A=V_{AD}*\frac{{AP}_{26}^{2}+D_{M}P_{26}^{2}-{AD}_M^{2}}{{AP}_{26}*D_{M}P_{26}}(2.2.3-22);
+V_{ADy}=V_{AD}\cdot \cos \angle M_{D}P_{26}A=V_{AD}\cdot \frac{{AP}_{26}^{2}+D_{M}P_{26}^{2}-{AD}_M^{2}}{{AP}_{26}\cdot D_{M}P_{26}}(2.2.3-22);
 $$
 
 同理可得另外两个构件AE和EC得竖直速度
 
 $$
-V_{CEy}=V_{CE}*\frac{E_{x}\phi_{2}}{l_{2}}(2.2.3-23)\text{；}
+V_{CEy}=V_{CE}\cdot \frac{E_{x}\phi_{2}}{l_{2}}(2.2.3-23)\text{；}
 $$
 
 $$
-V_{AEy}=V_{AE}*\frac{{AP}_{46}^{2}+E_{M}P_{46}^{2}-{AE}_M^{2}}{{AP}_{46}*E_{M}P_{46}}(2.2.3-24);
+V_{AEy}=V_{AE}\cdot \frac{{AP}_{46}^{2}+E_{M}P_{46}^{2}-{AE}_M^{2}}{{AP}_{46}\cdot E_{M}P_{46}}(2.2.3-24);
 $$
 
 其中， ${AP}_{26}\text{、}D_{M}P_{26}\text{、}{AP}_{46}\text{、}E_{M}P_{46}\text{、}AD_{M}\text{、}AE_{M}$ 可以通过对坐标求两点间距离公式得到。
