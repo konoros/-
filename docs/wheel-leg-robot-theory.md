@@ -604,7 +604,11 @@ $$
 [\begin{matrix}X^{C} \\ Y^{C}\end{matrix}]=R_{A[3\times 3]}^{C}\cdot [\begin{matrix}X^{A} \\ Y^{A}\end{matrix}] (2.2.2-3)
 $$
 
-通过几何关系可以得到： $R_{A[3\times 3]}^{C}=[\begin{matrix}1 & 0 & {-C}_x^{4} \\ 0 & 1 & {-C}_y^{A} \\ 0 & 0 & 1\end{matrix}] (2.2.2-4)$
+通过几何关系可以得到：
+
+$$
+R_{A[3\times 3]}^{C}=[\begin{bmatrix}1 & 0 & {-C}_x^{4} \\ 0 & 1 & {-C}_y^{A} \\ 0 & 0 & 1\end{bmatrix}] (2.2.2-4)
+$$
 
 结合1.1.3的坐标计算方法，式2.2.2-2和式2.2.2-4，我们可以得到以下坐标公式：
 
