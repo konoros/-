@@ -37,7 +37,7 @@
 ## 💻 源码
 
 - [spring_pianlong.m（MATLAB 弹簧选型脚本）](code/spring_pianlong.m) —— 在 MATLAB 里直接打开运行，改 l1 / l2 后重跑即可；输出内径 5–10 mm、形变量 ≥100 mm 的候选弹簧
-- [k.m（MATLAB 偏置并联构型 k 值影响计算）](code/k.m) —— 用符号计算求 C 点坐标与 k 的关系：先画圆法列 C 点方程，再取物理可行解；改 k / l1 / l2 后重跑即可
+- [k.m（MATLAB 并联构型 k 值影响计算）](code/k.m) —— 用符号计算求 C 点坐标与 k 的关系：先画圆法列 C 点方程，再取物理可行解；改 k / l1 / l2 后重跑即可
 
 ## 目录说明
 
